@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bus Mall Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src='js/chart.js'></script>
+  </head>
+  <body>
+    <header class='container'>
+      <h1>BusMall Marketing Study</h1>
+      <p class="thanks">Thank you for participating in BusMall's product study. Your input will help us to tailor our catalog experience for the maximum enjoyment of numerous Puget Sound transit riders.</p>
+      <p class="instructions">Please click on the image of the product that you would be the most likely to buy. Many of the items will appear multiple times; in each instance, just vote on your favorite of the images that are displayed.</p>
+      <p class="instructions">Note that after you have made 25 votes, you will be given an option to view the cumulative voting results, and exit from the study.
+    </header>
+    <section id='images' class='container'>
+      <img src="" alt="" id='img1' class='four columns'>
+      <img src="" alt="" id='img2' class='four columns'>
+      <img src="" alt="" id='img3' class='four columns'>
+    </section>
+    <section class='container'>
+      <button type="button" name="button" id='showResults' hidden>View Results Now</button>
+      <button type='button' name='reset' id='reset' hidden>Reset</button>
+      <canvas id="canvas" class='twelve columns'></canvas>
+    </section>
+    <script type="text/javascript" src='js/app.js'></script>
+  </body>
+</html>

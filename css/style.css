@@ -1,0 +1,59 @@
+@import url('normalize.css');
+@import url('layout.css');
+
+/** {
+  border: 1px solid black;
+}*/
+
+* {
+  /*outline: 1px dashed orange;*/
+}
+
+p {
+   text-align: center;
+   border: 3px solid cyan;
+   border-radius: 40px;
+   font-size: 0.9em;
+   font-style: italic;
+   padding: 5px;
+}
+
+.instructions, h1 {
+  color: Navy;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 3.5em;
+  margin: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+img {
+  box-shadow: .2em .2em .2em .2em;
+}
+
+#images {
+  margin-bottom: 1em;
+  width: 80%;
+  padding 15px;
+}
+
+canvas {
+  max-height: 20rem;
+}
+
+body {
+  background-color: lightblue;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: lightgrey;
+  }
+}
